@@ -1,0 +1,42 @@
+/* Google Login Wrapper */
+.google-login {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center; /* Centers the Google login section */
+  position: relative; /* Enables absolute positioning for the overlay text */
+}
+
+/* Google Button */
+.google-button button {
+  background: #1a365d; /* Dark navy for Google button */
+  color: #ffffff;
+  padding: 0.75rem 2rem; /* Adjusted padding for balanced spacing */
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.google-button button:hover {
+  background: #122746; /* Even darker navy on hover */
+}
+
+/* Custom Overlay Text */
+.google-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  pointer-events: none; /* Ensures the overlay text doesn’t interfere with clicks */
+  z-index: 1; /* Ensures the text is above the Google button */
+}
+
+/* Hide Google Button Text */
+.google-login .text-container {
+  display: none !important; /* Hides the default Google button text */
+}

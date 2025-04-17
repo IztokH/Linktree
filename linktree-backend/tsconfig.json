@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    /* Build Options */
+    "incremental": true,                                  /* Enable incremental builds for faster compilation. */
+
+    /* Language and Environment */
+    "target": "es2019",                                   /* Use ES2019 for Node.js compatibility. */
+    "lib": ["es2019"],                                    /* Include ES2019 library for backend projects. */
+    "jsx": "react-jsx",                                   /* Keep React JSX runtime for potential frontend components. */
+    "resolveJsonModule": true,                            /* Enable importing .json files. */
+    "allowSyntheticDefaultImports": true,                /* Allow 'import x from y' for CommonJS modules. */
+    "esModuleInterop": true,                              /* Emit additional JS to support importing CommonJS modules. */
+    "skipLibCheck": true,                                 /* Skip type checking for declaration files to speed up builds. */
+    "forceConsistentCasingInFileNames": true,             /* Ensure consistent casing in file imports. */
+    "typeRoots": ["node_modules/@types", "src/@types"],   /* Add custom type declarations if necessary. */
+
+    /* Modules */
+    "module": "commonjs",                                 /* Use CommonJS for Node.js backends and Sequelize compatibility. */
+    "moduleResolution": "node",                          /* Use Node.js module resolution strategy. */
+    "baseUrl": "./",                                      /* Base directory for resolving non-relative module names. */
+    "paths": {                                            /* Add path aliases for cleaner imports. */
+      "@/*": ["src/*"]
+    },
+
+    /* JavaScript Support */
+    "allowJs": true,                                      /* Allow JavaScript files for gradual migration. */
+    "checkJs": false,                                     /* Disable type-checking for JavaScript files. */
+
+    /* Emit */
+    "outDir": "./dist",                                   /* Output folder for compiled files. */
+    "rootDir": "src",                                     /* Use the src directory as the root directory. */
+    "sourceMap": true,                                    /* Generate source maps for easier debugging. */
+    "declaration": true,                                  /* Generate .d.ts files for TypeScript definitions. */
+    "declarationMap": true,                               /* Create sourcemaps for declaration files. */
+
+    /* Strictness */
+    "strict": true,                                       /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                                /* Report errors for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                             /* Enable strict null checking. */
+    "strictPropertyInitialization": true,                 /* Ensure class properties are correctly initialized. */
+
+    /* Type Checking */
+    "noUnusedLocals": true,                               /* Report unused local variables. */
+    "noUnusedParameters": true,                           /* Report unused function parameters. */
+    "noImplicitReturns": true,                            /* Ensure all code paths in a function return a value. */
+    "noFallthroughCasesInSwitch": true,                   /* Report fallthrough cases in switch statements. */
+    "exactOptionalPropertyTypes": true,                   /* Interpret optional property types as written. */
+
+    /* Completeness */
+    "skipDefaultLibCheck": true,                          /* Skip type checking for default library declaration files. */
+    "allowUnreachableCode": false,                        /* Disallow unreachable code in the project. */
+    "allowUnusedLabels": false                            /* Disallow unused labels in the project. */
+  },
+  "include": [
+    "src/**/*.ts"                                         /* Include all TypeScript files in the src directory, including migrations and seeders. */
+  ],
+  "exclude": [
+    "node_modules",                                       /* Exclude node_modules to avoid unnecessary checks. */
+    "dist",                                               /* Exclude the output directory. */
+    "build"                                               /* Exclude build directories. */
+  ]
+}

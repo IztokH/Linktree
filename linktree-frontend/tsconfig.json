@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "incremental": true,                                  /* Enable incremental builds for faster compilation. */
+
+    /* Language and Environment */
+    "target": "es2020",                                   /* Use ES2020 for better compatibility with modern browsers. */
+    "lib": ["dom", "dom.iterable", "es2020"],             /* Include DOM and ES2020 libraries for React projects. */
+    "jsx": "react-jsx",                                   /* Use the React 17+ JSX runtime. */
+    "resolveJsonModule": true,                            /* Enable importing .json files. */
+    "allowSyntheticDefaultImports": true,                /* Allow 'import x from y' for CommonJS modules. */
+    "esModuleInterop": true,                              /* Emit additional JavaScript to support CommonJS modules. */
+    "skipLibCheck": true,                                 /* Skip type checking for declaration files. */
+    "forceConsistentCasingInFileNames": true,             /* Ensure consistent casing in imports. */
+
+    /* Modules */
+    "module": "esnext",                                   /* Use ESNext module resolution for React projects. */
+    "moduleResolution": "node",                          /* Use Node.js module resolution strategy. */
+    "baseUrl": "./",                                      /* Base directory for resolving module imports. */
+    "paths": {                                            /* Add path aliases for cleaner imports. */
+      "@/*": ["src/*"]
+    },
+
+    /* JavaScript Support */
+    "allowJs": true,                                      /* Allow JavaScript files in the project. */
+    "checkJs": false,                                     /* Disable type checking for JavaScript files. */
+
+    /* Emit */
+    "outDir": "./build",                                  /* Output folder for compiled files. */
+    "rootDir": "./src",                                   /* Root directory for source files. */
+    "sourceMap": true,                                    /* Generate source maps for debugging. */
+    "declaration": true,                                  /* Generate .d.ts files for TypeScript definitions. */
+    "declarationMap": true,                               /* Create sourcemaps for declaration files. */
+
+    /* Interop Constraints */
+    "strict": true,                                       /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                                /* Report errors for variables with an implicit 'any' type. */
+    "strictNullChecks": true,                             /* Enable strict null checking. */
+    "strictPropertyInitialization": true,                 /* Ensure class properties are initialized. */
+
+    /* Type Checking */
+    "noUnusedLocals": true,                               /* Report unused local variables. */
+    "noUnusedParameters": true,                           /* Report unused function parameters. */
+    "noImplicitReturns": true,                            /* Ensure all code paths return a value. */
+    "noFallthroughCasesInSwitch": true,                   /* Report fallthrough cases in switch statements. */
+
+    /* Completeness */
+    "skipDefaultLibCheck": true                           /* Skip type checking for default library files. */
+  },
+  "include": [
+    "src/**/*",                                           /* Include all TypeScript and JavaScript files in the src directory. */
+    "src/**/*.d.ts"                                       /* Include declaration files if needed. */
+  ],
+  "exclude": [
+    "node_modules",                                       /* Exclude node_modules. */
+    "build"                                               /* Exclude the build directory. */
+  ]
+}

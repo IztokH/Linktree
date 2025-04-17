@@ -1,0 +1,1 @@
+{"version":3,"file":"20250109205355-add-deleted-at-to-users.js","sourceRoot":"","sources":["../../migrations/20250109205355-add-deleted-at-to-users.js"],"names":[],"mappings":"AAAA,YAAY,CAAC;AAEb,gDAAgD;AAChD,MAAM,CAAC,OAAO,GAAG;IACf,KAAK,CAAC,EAAE,CAAE,cAAc,EAAE,SAAS;QACjC;;;;;WAKG;IACL,CAAC;IAED,KAAK,CAAC,IAAI,CAAE,cAAc,EAAE,SAAS;QACnC;;;;;WAKG;IACL,CAAC;CACF,CAAC"}
