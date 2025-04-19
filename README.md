@@ -124,7 +124,7 @@ frontend/
 🤝 Contributing
  - Pull requests and feedback are welcome! Please open an issue to discuss any major changes.
 
-📄 License
+📄 License:
 PIXALISE s.p. Slovenia
 
 💬 Contact
