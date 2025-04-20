@@ -1,3 +1,12 @@
+Copyright (c) 2025 Iztok Hudales
+
+This project is licensed under the [MIT License] for general use.
+
+Exclusive commercial rights and extended use of this software are granted to:
+PIXALISE s.p. Slovenia, under the terms of our agreement dated 26.1.2025.
+
+All other users may use this project according to the MIT License terms.
+
 🌳 Linktree Clone
 A full-stack Linktree-style application built with React, TypeScript, Tailwind CSS for the frontend and Node.js, Express, PostgreSQL, Sequelize, and TypeScript for the backend. Users can register, log in (via email or Google), manage their public link pages, verify accounts, and securely reset passwords using tokens sent via email.
 
@@ -123,9 +132,6 @@ frontend/
 
 🤝 Contributing
  - Pull requests and feedback are welcome! Please open an issue to discuss any major changes.
-
-📄 License:
-PIXALISE s.p. Slovenia
 
 💬 Contact
 For questions or support, reach out via [hudalesi@gmail.com].
