@@ -7,7 +7,7 @@ PIXALISE s.p. Slovenia, under the terms of our agreement dated 26.1.2025.
 
 All other users may use this project according to the MIT License terms.
 
-🌳 Linktree Clone
+🌳 Linktree:
 A full-stack Linktree-style application built with React, TypeScript, Tailwind CSS for the frontend and Node.js, Express, PostgreSQL, Sequelize, and TypeScript for the backend. Users can register, log in (via email or Google), manage their public link pages, verify accounts, and securely reset passwords using tokens sent via email.
 
 🚀 Features
