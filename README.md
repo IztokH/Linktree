@@ -1,50 +1,97 @@
 🌳 Linktree Clone (Full-Stack Portfolio Project)
+
 Author: Iztok Hudales
+
 Copyright © 2025
+
 📄 License & Usage
+
 This project is licensed under the MIT License and may be freely:
+
 viewed,
+
 cloned,
+
 installed,
+
 modified,
+
 and used for personal, educational, and portfolio purposes.
+
 Commercial Use
+
 Exclusive commercial rights and extended commercial use of this software are granted to:
+
 PIXALISE s.p., Slovenia,
+
 under the terms of an agreement dated 26.1.2025.
+
 ❗ Commercial use by third parties is not permitted without explicit authorization.
+
 Portfolio & Demonstration Use
+
 ✅ Users are explicitly allowed to:
+
 run the project locally,
+
 deploy it for testing or demonstration,
+
 include it in personal portfolios,
+
 present it as an example of technical work,
+
 without requesting permission from PIXALISE.
+
 📌 Overview
+
 A full-stack Linktree-style web application built to showcase modern web development practices.
+
 Users can:
+
 register and log in using email/password or Google OAuth,
+
 create and manage a public profile page,
+
 add, update, and delete custom links,
+
 verify their email and reset passwords securely via email tokens.
+
 This project is intended for learning, demonstration, and portfolio presentation.
+
 🚀 Features
+
 🔐 Authentication
+
 Email & password authentication (bcrypt hashing)
+
 Google OAuth login
+
 JWT-based authentication
+
 Email verification
+
 Secure password reset with tokens
+
 👤 User Profile
+
 Create and edit biography
+
 Personalized public Linktree-style landing page
+
 🔗 Link Management
+
 Add, update, and delete links
+
 Public profile page accessible via URL
+
 📬 Email System
+
 Email verification
+
 Password reset emails
+
 Implemented using Nodemailer
+
 🛠️ Tech Stack
 Frontend
 -React
