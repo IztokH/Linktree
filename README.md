@@ -115,17 +115,29 @@ Backend
 -Sequelize ORM
 
 Security & Tools
+
 -bcrypt
+
 -JSON Web Tokens (JWT)
+
 -google-auth-library
+
 -Nodemailer
+
 👤 How Users Test the App
+
 -Register a new account (email or Google)
+
 -Verify email address
+
 -Log in
+
 -Create a profile
+
 -Add and manage links
+
 -Share the public profile URL
+
 📦 Installation (Local Development)
 🔧 Prerequisites
 -Node.js v18+
@@ -197,32 +209,57 @@ Frontend runs at:
 http://localhost:3000
 
 📁 Project Structure
+
 backend/
+
  ├── dist/              # Compiled JavaScript
+ 
  ├── src/
+ 
  │   ├── config/        # Sequelize DB config
+ 
  │   ├── migrations/    # Database migrations
+ 
  │   ├── models/        # Sequelize models
+ 
  │   ├── seeders/       # Optional seed data
+ 
  │   ├── controllers/  # Business logic
+ 
  │   ├── routes/        # Express routes
+ 
  │   ├── middleware/   # Auth & error handling
+ 
  │   ├── utils/         # JWT, email, tokens
+ 
  │   └── index.ts       # App entry point
+ 
  ├── .sequelizerc
+ 
  ├── tsconfig.json
+ 
  ├── package.json
+ 
  └── .env
 
 frontend/
+
  ├── src/
+ 
  │   ├── components/    # React components
+ 
  │   ├── pages/         # Login, Register, Profile, etc.
+ 
  │   ├── services/      # API calls
+ 
  │   ├── utils/         # Helpers
+ 
  │   └── App.tsx        # Main app
+ 
  ├── tailwind.config.js
+ 
  ├── tsconfig.json
+ 
  └── package.json
 
 🛡️ Security
