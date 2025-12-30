@@ -4,21 +4,21 @@ Author: Iztok Hudales
 
 Copyright © 2025
 
-📄 License & Usage
+📄 License & Usage:
 
 This project is licensed under the MIT License and may be freely:
 
-viewed,
+-viewed,
 
-cloned,
+-cloned,
 
-installed,
+-installed,
 
-modified,
+-modified,
 
-and used for personal, educational, and portfolio purposes.
+-and used for personal, educational, and portfolio purposes.
 
-Commercial Use
+Commercial Use:
 
 Exclusive commercial rights and extended commercial use of this software are granted to:
 
@@ -60,7 +60,7 @@ This project is intended for learning, demonstration, and portfolio presentation
 
 🚀 Features
 
-🔐 Authentication
+🔐 Authentication:
 
 -Email & password authentication (bcrypt hashing)
 
@@ -72,13 +72,13 @@ This project is intended for learning, demonstration, and portfolio presentation
 
 -Secure password reset with tokens
 
-👤 User Profile
+👤 User Profile:
 
-Create and edit biography
+-Create and edit biography
 
-Personalized public Linktree-style landing page
+-Personalized public Linktree-style landing page
 
-🔗 Link Management
+🔗 Link Management:
 
 -Add, update, and delete links
 
@@ -94,7 +94,7 @@ Personalized public Linktree-style landing page
 
 🛠️ Tech Stack
 
-Frontend
+Frontend:
 
 -React
 
@@ -102,7 +102,7 @@ Frontend
 
 -Tailwind CSS
 
-Backend
+Backend:
 
 -Node.js
 
@@ -114,7 +114,7 @@ Backend
 
 -Sequelize ORM
 
-Security & Tools
+Security & Tools:
 
 -bcrypt
 
@@ -124,7 +124,7 @@ Security & Tools
 
 -Nodemailer
 
-👤 How Users Test the App
+👤 How Users Test the App:
 
 -Register a new account (email or Google)
 
