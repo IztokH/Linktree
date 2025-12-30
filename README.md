@@ -32,15 +32,15 @@ Portfolio & Demonstration Use
 
 ✅ Users are explicitly allowed to:
 
-run the project locally,
+-run the project locally,
 
-deploy it for testing or demonstration,
+-deploy it for testing or demonstration,
 
-include it in personal portfolios,
+-include it in personal portfolios,
 
-present it as an example of technical work,
+-present it as an example of technical work,
 
-without requesting permission from PIXALISE.
+-without requesting permission from PIXALISE.
 
 📌 Overview
 
@@ -48,13 +48,13 @@ A full-stack Linktree-style web application built to showcase modern web develop
 
 Users can:
 
-register and log in using email/password or Google OAuth,
+-register and log in using email/password or Google OAuth,
 
-create and manage a public profile page,
+-create and manage a public profile page,
 
-add, update, and delete custom links,
+-add, update, and delete custom links,
 
-verify their email and reset passwords securely via email tokens.
+-verify their email and reset passwords securely via email tokens.
 
 This project is intended for learning, demonstration, and portfolio presentation.
 
@@ -62,15 +62,15 @@ This project is intended for learning, demonstration, and portfolio presentation
 
 🔐 Authentication
 
-Email & password authentication (bcrypt hashing)
+-Email & password authentication (bcrypt hashing)
 
-Google OAuth login
+-Google OAuth login
 
-JWT-based authentication
+-JWT-based authentication
 
-Email verification
+-Email verification
 
-Secure password reset with tokens
+-Secure password reset with tokens
 
 👤 User Profile
 
@@ -80,29 +80,40 @@ Personalized public Linktree-style landing page
 
 🔗 Link Management
 
-Add, update, and delete links
+-Add, update, and delete links
 
-Public profile page accessible via URL
+-Public profile page accessible via URL
 
 📬 Email System
 
-Email verification
+-Email verification
 
-Password reset emails
+-Password reset emails
 
-Implemented using Nodemailer
+-Implemented using Nodemailer
 
 🛠️ Tech Stack
+
 Frontend
+
 -React
+
 -TypeScript
+
 -Tailwind CSS
+
 Backend
+
 -Node.js
+
 -Express.js
+
 -TypeScript
+
 -PostgreSQL
+
 -Sequelize ORM
+
 Security & Tools
 -bcrypt
 -JSON Web Tokens (JWT)
